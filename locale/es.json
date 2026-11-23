@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "title": "Magpie",
+    "attribution": "Desarrollado a partir de yetone/magpie (MIT, Copyright (c) 2026 yetone).",
+    "description": "Una pasarela local para cada agente y modelo. En Ajustes → Magpie: proveedores, suscripciones, modelo por agente, grupos, perfiles, enmascarado y uso. Las mismas operaciones son la herramienta magpie y /magpie. Pasarela: http://127.0.0.1:3425 (OpenAI Chat, Responses, Anthropic Messages, Gemini). Las claves quedan en el archivo local. Al desactivar se detiene la pasarela; el estado se conserva.",
+    "detail": "docs/DETAIL.es.md"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "title": "Magpie",
+    "attribution": "Разработан на основе yetone/magpie (MIT, Copyright (c) 2026 yetone).",
+    "description": "Один локальный шлюз для всех агентов и моделей. Настройки → Magpie: провайдеры, подписки, модель агента, группы, профили, маскирование и учёт. Те же действия — инструмент magpie и /magpie. Шлюз: http://127.0.0.1:3425 (OpenAI Chat, Responses, Anthropic Messages, Gemini). Ключи только в локальном файле. Выключение останавливает шлюз; состояние сохраняется.",
+    "detail": "docs/DETAIL.ru.md"
+  }
+}

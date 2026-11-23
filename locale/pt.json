@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "title": "Magpie",
+    "attribution": "Desenvolvido a partir de yetone/magpie (MIT, Copyright (c) 2026 yetone).",
+    "description": "Um gateway local para cada agente e modelo. Em Configurações → Magpie: provedores, assinaturas, modelo por agente, grupos, perfis, mascaramento e uso. As mesmas operações são a ferramenta magpie e /magpie. Gateway: http://127.0.0.1:3425 (OpenAI Chat, Responses, Anthropic Messages, Gemini). As chaves ficam no arquivo local. Desligar para o gateway; o estado permanece.",
+    "detail": "docs/DETAIL.pt.md"
+  }
+}

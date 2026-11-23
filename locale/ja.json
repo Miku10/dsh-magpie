@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "title": "Magpie",
+    "attribution": "yetone/magpie をもとに開発（MIT、Copyright (c) 2026 yetone）。",
+    "description": "すべてのエージェントのモデルを一箇所で。設定 → Magpie でプロバイダ追加、サブスクリプション、エージェントごとのモデル、ルーティンググループとプロファイル、送信前の秘匿化、使用量を扱います。同じ操作は magpie ツールと /magpie です。ゲートウェイは http://127.0.0.1:3425（OpenAI Chat、Responses、Anthropic Messages、Gemini）。鍵はローカルの状態ファイルだけにあります。プラグインを切るとゲートウェイは止まり、保存した状態は残ります。",
+    "detail": "docs/DETAIL.ja.md"
+  }
+}

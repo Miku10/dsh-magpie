@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300">
+  <rect width="640" height="300" fill="#f4f1ea"/>
+  <rect x="36" y="36" width="150" height="228" rx="16" fill="#1f6f8b"/>
+  <rect x="56" y="58" width="110" height="14" rx="7" fill="#f4f1ea"/>
+  <rect x="56" y="86" width="86" height="10" rx="5" fill="#d7efe8"/>
+  <rect x="56" y="108" width="96" height="10" rx="5" fill="#d7efe8"/>
+  <rect x="56" y="130" width="72" height="10" rx="5" fill="#d7efe8"/>
+  <rect x="56" y="168" width="110" height="72" rx="12" fill="#164e63"/>
+  <path d="M111 186c.6 2.2 1.4 3.8 2.8 5.2 1.4 1.4 3 2.2 5.2 2.8-2.2.6-3.8 1.4-5.2 2.8-1.4 1.4-2.2 3-2.8 5.2-.6-2.2-1.4-3.8-2.8-5.2-1.4-1.4-3-2.2-5.2-2.8 2.2-.6 3.8-1.4 5.2-2.8 1.4-1.4 2.2-3 2.8-5.2Z" fill="#f4f1ea"/>
+  <rect x="214" y="78" width="168" height="144" rx="18" fill="#ffffff" stroke="#1f6f8b" stroke-width="3"/>
+  <circle cx="298" cy="132" r="28" fill="#e07a3d"/>
+  <path d="M298 112c.8 3 1.8 5 3.6 6.8 1.8 1.8 3.8 2.8 6.8 3.6-3 .8-5 1.8-6.8 3.6-1.8 1.8-2.8 3.8-3.6 6.8-.8-3-1.8-5-3.6-6.8-1.8-1.8-3.8-2.8-6.8-3.6 3-.8 5-1.8 6.8-3.6 1.8-1.8 2.8-3.8 3.6-6.8Z" fill="#fff7ef"/>
+  <rect x="410" y="36" width="194" height="228" rx="16" fill="#2f6b4f"/>
+  <rect x="430" y="58" width="120" height="14" rx="7" fill="#f4f1ea"/>
+  <rect x="430" y="90" width="154" height="28" rx="8" fill="#214e39"/>
+  <rect x="430" y="128" width="154" height="28" rx="8" fill="#214e39"/>
+  <rect x="430" y="166" width="154" height="28" rx="8" fill="#214e39"/>
+  <rect x="430" y="214" width="92" height="22" rx="11" fill="#e7f3ec"/>
+  <path d="M250 150h28" stroke="#1f6f8b" stroke-width="3"/>
+  <path d="M382 150h28" stroke="#2f6b4f" stroke-width="3"/>
+</svg>

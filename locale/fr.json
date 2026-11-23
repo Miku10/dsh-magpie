@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "title": "Magpie",
+    "attribution": "Développé à partir de yetone/magpie (MIT, Copyright (c) 2026 yetone).",
+    "description": "Une passerelle locale pour chaque agent et chaque modèle. Réglages → Magpie : fournisseurs, abonnements, modèle par agent, groupes, profils, masquage et usage. Les mêmes opérations : outil magpie et /magpie. Passerelle : http://127.0.0.1:3425 (OpenAI Chat, Responses, Anthropic Messages, Gemini). Les clés restent dans le fichier local. Désactiver arrête la passerelle ; l'état reste.",
+    "detail": "docs/DETAIL.fr.md"
+  }
+}
