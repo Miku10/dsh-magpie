@@ -30,6 +30,17 @@ export function apply(ctx, config = {}) {
 
   ctx.effect(() => {
     let stopped = false
+    const timer = setInterval(() => {
+      const state = store.get()
+      if (!state.checkin?.enabled) return
+      const hour = new Date().getHours()
+      const want = Number(String(state.checkin.at || '09:00').slice(0, 2))
+      if (hour !== want) return
+      const day = new Date().toISOString().slice(0, 10)
+      if (state.checkin.lastDay === day) return
+      void api.call('checkinNow', {}).then(() => store.update((s) => { s.checkin.lastDay = day })).catch((err) => ctx.logger?.error?.(`[magpie] check-in: ${err.message}`))
+    }, 60_000)
+    if (typeof timer.unref === 'function') timer.unref()
     void store.load().then(() => {
       if (stopped) return
       gateway = startGateway({
@@ -49,6 +60,7 @@ export function apply(ctx, config = {}) {
     })
     return () => {
       stopped = true
+      clearInterval(timer)
       gateway?.close()
     }
   })

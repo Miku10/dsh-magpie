@@ -1,1 +1,1 @@
-![Magpie 把所有 Agent 接到同一个本地网关](preview.svg)
+![用量看板和调度看板](preview.svg)

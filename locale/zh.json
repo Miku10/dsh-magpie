@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Magpie",
-    "attribution": "基于 yetone/magpie 开发（MIT，Copyright (c) 2026 yetone）。",
+    "title": "中继",
     "description": "所有 Agent 的模型，一处搞定。打开设置 → Magpie，添加服务商、登录订阅、为每个 Agent 选模型、建路由组和方案，并在请求离开这台电脑前脱敏。用量、会话和上下文也在同一页。同一套操作可通过 magpie 工具和 /magpie 命令调用。网关默认 http://127.0.0.1:3425，同时支持 OpenAI Chat、Responses、Anthropic Messages 和 Gemini。密钥只存在本地状态文件。关闭插件会停掉网关，已保存的状态保留。",
     "detail": "docs/DETAIL.zh.md"
   }

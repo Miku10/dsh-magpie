@@ -1,10 +1,9 @@
 {
-  "name": "@local/dsh-magpie",
+  "name": "dsh-relay",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Developed from yetone/magpie (MIT, Copyright (c) 2026 yetone). A DeepSeek Harness plugin: one local gateway for every provider, account, routing group, and agent, with masking, usage, search, media, library, and sync.",
-  "homepage": "https://github.com/yetone/magpie",
+  "description": "DeepSeek Harness plugin: local model gateway, provider cards, phone sign-in, daily check-in, usage board, and routing board.",
   "license": "MIT",
   "exports": {
     ".": "./index.js",

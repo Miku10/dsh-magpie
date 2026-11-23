@@ -1,7 +1,6 @@
 {
   "meta": {
-    "title": "Magpie",
-    "attribution": "Developed from yetone/magpie (MIT, Copyright (c) 2026 yetone).",
+    "title": "Relay",
     "description": "One local gateway for every agent and model. Open Settings → Magpie to add providers, sign in subscriptions, pick a model per agent, build routing groups and profiles, mask secrets before they leave this computer, and watch usage, sessions, and context. The same operations are the magpie agent tool and the /magpie command. Gateway: http://127.0.0.1:3425 (OpenAI Chat, Responses, Anthropic Messages, Gemini). Keys stay in the local state file. Turning the plugin off stops the gateway; saved state remains.",
     "detail": "docs/DETAIL.md"
   }
